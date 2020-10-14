@@ -34,11 +34,25 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInBlack(string format) {
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END Black */
         /* START Blue */
         public static string WriteLineInBlue(string format) {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInBlue(string format) {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
@@ -52,11 +66,25 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInCyan(string format) {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END Cyan */
         /* START DarkBlue */
         public static string WriteLineInDarkBlue(string format) {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInDarkBlue(string format) {
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
@@ -70,11 +98,25 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInDarkGray(string format) {
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END DarkGray */
         /* START DarkGreen */
         public static string WriteLineInDarkGreen(string format) {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInDarkGreen(string format) {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
@@ -88,11 +130,25 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInDarkMagenta(string format) {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END DarkMagenta */
         /* START DarkRed */
         public static string WriteLineInDarkRed(string format) {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInDarkRed(string format) {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
@@ -106,11 +162,25 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInDarkYellow(string format) {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END DarkYellow */
         /* START Gray */
         public static string WriteLineInGray(string format) {
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInGray(string format) {
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
@@ -124,11 +194,25 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInGreen(string format) {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END Green */
         /* START Magenta */
         public static string WriteLineInMagenta(string format) {
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInMagenta(string format) {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
@@ -142,6 +226,13 @@ namespace Extensionals {
             return format;
         }
 
+        public static string WriteInRed(string format) {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END Red */
         /* START White */
         public static string WriteLineInWhite(string format) {
@@ -150,12 +241,26 @@ namespace Extensionals {
             Console.ResetColor();
             return format;
         }
-        
+
+        public static string WriteInWhite(string format) {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
         /* END White */
         /* START Yellow */
         public static string WriteLineInYellow(string format) {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        public static string WriteInYellow(string format) {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(format);
             Console.ResetColor();
             return format;
         }
