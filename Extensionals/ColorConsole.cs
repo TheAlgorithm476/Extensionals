@@ -29,6 +29,12 @@ using System;
 namespace Extensionals {
     public class ColorConsole {
         /* START Black */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a black color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInBlack(string format) {
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine(format);
@@ -45,6 +51,12 @@ namespace Extensionals {
 
         /* END Black */
         /* START Blue */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a blue color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInBlue(string format) {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(format);
@@ -61,6 +73,12 @@ namespace Extensionals {
 
         /* END Blue */
         /* START Cyan */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a cyan color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInCyan(string format) {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(format);
@@ -77,6 +95,12 @@ namespace Extensionals {
 
         /* END Cyan */
         /* START DarkBlue */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a dark blue color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInDarkBlue(string format) {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine(format);
@@ -93,6 +117,12 @@ namespace Extensionals {
 
         /* END DarkBlue */
         /* START DarkGray */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a dark gray color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInDarkGray(string format) {
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine(format);
@@ -109,6 +139,12 @@ namespace Extensionals {
 
         /* END DarkGray */
         /* START DarkGreen */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a dark green color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInDarkGreen(string format) {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine(format);
@@ -125,6 +161,12 @@ namespace Extensionals {
 
         /* END DarkGreen */
         /* START DarkMagenta */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a dark magenta color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInDarkMagenta(string format) {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine(format);
@@ -141,6 +183,12 @@ namespace Extensionals {
 
         /* END DarkMagenta */
         /* START DarkRed */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a dark red color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInDarkRed(string format) {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine(format);
@@ -157,6 +205,12 @@ namespace Extensionals {
 
         /* END DarkRed */
         /* START DarkYellow */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a dark yellow color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInDarkYellow(string format) {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(format);
@@ -173,6 +227,12 @@ namespace Extensionals {
 
         /* END DarkYellow */
         /* START Gray */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a gray color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInGray(string format) {
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine(format);
@@ -189,6 +249,12 @@ namespace Extensionals {
 
         /* END Gray */
         /* START Green */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a green color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInGreen(string format) {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(format);
@@ -205,6 +271,12 @@ namespace Extensionals {
 
         /* END Green */
         /* START Magenta */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a magenta color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInMagenta(string format) {
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(format);
@@ -221,6 +293,12 @@ namespace Extensionals {
 
         /* END Magenta */
         /* START Red */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a red color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInRed(string format) {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(format);
@@ -237,6 +315,12 @@ namespace Extensionals {
 
         /* END Red */
         /* START White */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a white color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInWhite(string format) {
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(format);
@@ -253,6 +337,12 @@ namespace Extensionals {
 
         /* END White */
         /* START Yellow */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a yellow color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLineInYellow(string format) {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(format);
