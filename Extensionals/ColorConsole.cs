@@ -1,4 +1,6 @@
-﻿/*
+﻿// Added in: 1.0-pre1
+
+/*
  * MIT License
  *
  * Copyright (c) 2020 TheAlgorithm476
