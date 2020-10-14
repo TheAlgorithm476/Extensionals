@@ -42,6 +42,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a black color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInBlack(string format) {
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Write(format);
@@ -64,6 +70,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a blue color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInBlue(string format) {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write(format);
@@ -86,6 +98,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a cyan color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInCyan(string format) {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write(format);
@@ -107,6 +125,12 @@ namespace Extensionals {
             Console.ResetColor();
             return format;
         }
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a dark blue color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
 
         public static string WriteInDarkBlue(string format) {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
@@ -130,6 +154,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a dark gray color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInDarkGray(string format) {
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.Write(format);
@@ -151,6 +181,12 @@ namespace Extensionals {
             Console.ResetColor();
             return format;
         }
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a dark green color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
 
         public static string WriteInDarkGreen(string format) {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -174,6 +210,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a dark magenta color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInDarkMagenta(string format) {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.Write(format);
@@ -196,6 +238,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a dark red color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInDarkRed(string format) {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.Write(format);
@@ -218,6 +266,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a dark yellow color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInDarkYellow(string format) {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.Write(format);
@@ -240,6 +294,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a gray color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInGray(string format) {
             Console.ForegroundColor = ConsoleColor.Gray;
             Console.Write(format);
@@ -262,6 +322,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a green color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInGreen(string format) {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(format);
@@ -284,6 +350,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a magenta color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInMagenta(string format) {
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Write(format);
@@ -306,6 +378,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a yellow color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInRed(string format) {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write(format);
@@ -328,6 +406,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a white color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInWhite(string format) {
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write(format);
@@ -350,6 +434,12 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Writes the specified string value to the standard output stream in a yellow color.
+        /// </summary>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
         public static string WriteInYellow(string format) {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write(format);
