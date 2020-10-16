@@ -55,6 +55,17 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInBlack() {
+            Console.ReadLine();
+        }
+
         /* END Black */
         /* START Blue */
         /// <summary>
