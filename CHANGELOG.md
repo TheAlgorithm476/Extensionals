@@ -1,5 +1,7 @@
 Changelog:
 ## 1.2
+### Additions
+- Added ColorConsole.ReadLineIn%COLOR%, with %COLOR% being a color of choice. This will show the input as being the selected color, but the variable it gets written to is still the same as in Console.ReadLine()
 
 ## 1.1
 ### Changes
