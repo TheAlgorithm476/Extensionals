@@ -63,7 +63,10 @@ namespace Extensionals {
         /// <exception cref="OutOfMemoryException"></exception>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
         public static string ReadLineInBlack() {
-            Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Black;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END Black */
@@ -94,6 +97,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInBlue() {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END Blue */
         /* START Cyan */
         /// <summary>
@@ -120,6 +137,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInCyan() {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END Cyan */
@@ -150,6 +181,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInDarkBlue() {
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END DarkBlue */
         /* START DarkGray */
         /// <summary>
@@ -176,6 +221,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInDarkGray() {
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END DarkGray */
@@ -206,6 +265,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInDarkGreen() {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END DarkGreen */
         /* START DarkMagenta */
         /// <summary>
@@ -232,6 +305,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInDarkMagenta() {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END DarkMagenta */
@@ -262,6 +349,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInDarkRed() {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END DarkRed */
         /* START DarkYellow */
         /// <summary>
@@ -288,6 +389,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInDarkYellow() {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END DarkYellow */
@@ -318,6 +433,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInGray() {
+            Console.ForegroundColor = ConsoleColor.Gray;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END Gray */
         /* START Green */
         /// <summary>
@@ -344,6 +473,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInGreen() {
+            Console.ForegroundColor = ConsoleColor.Green;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END Green */
@@ -374,6 +517,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInMagenta() {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END Magenta */
         /* START Red */
         /// <summary>
@@ -400,6 +557,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInRed() {
+            Console.ForegroundColor = ConsoleColor.Red;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END Red */
@@ -430,6 +601,20 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInWhite() {
+            Console.ForegroundColor = ConsoleColor.White;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+
         /* END White */
         /* START Yellow */
         /// <summary>
@@ -456,6 +641,20 @@ namespace Extensionals {
             Console.Write(format);
             Console.ResetColor();
             return format;
+        }
+
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in a black color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
+        public static string ReadLineInYellow() {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
         }
 
         /* END Yellow */
