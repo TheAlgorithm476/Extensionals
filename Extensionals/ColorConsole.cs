@@ -73,6 +73,13 @@ namespace Extensionals {
             return format;
         }
 
+        /// <summary>
+        /// Reads the next line of characters from the standard input stream in your specified color.
+        /// </summary>
+        /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        /// <exception cref="OutOfMemoryException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException"></exception>
         public static string ReadLine(string color) {
             switch (color) {
                 case "black":
