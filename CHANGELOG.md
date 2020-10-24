@@ -1,8 +1,13 @@
 Changelog:
 ## 1.3
 ### Additions
-- Added Wildcards
-    * This works by specifying your color as string in ConsoleColor.WriteLine(string color, string format), with string(color) being your color, and format being your string you wish to output
+- Added Wildcards for WriteLine
+    * In form of String: ColorConsole.WriteLine(string color, string format)
+        * Specify your prefered color in "color".
+        * Specify your Output in "format".
+- Added Wildcards for ReadLine
+    * In form of String: ColorConsole.ReadLine(string color)
+        * Specify your prefered color in "color".
 
 ## 1.2
 ### Additions
