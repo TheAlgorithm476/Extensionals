@@ -72,6 +72,46 @@ namespace Extensionals {
             Console.ResetColor();
             return format;
         }
+
+        public static string ReadLine(string color) {
+            switch (color) {
+                case "black":
+                    Console.ForegroundColor = ConsoleColor.Black;
+                case "blue":
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                case "cyan":
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                case "darkblue":
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                case "darkgray":
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                case "darkgreen":
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                case "darkmagenta":
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                case "darkred":
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                case "darkyellow":
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                case "gray":
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                case "green":
+                    Console.ForegroundColor = ConsoleColor.Green;
+                case "magenta":
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                case "red":
+                    Console.ForegroundColor = ConsoleColor.Red;
+                case "white":
+                    Console.ForegroundColor = ConsoleColor.White;
+                case "yellow":
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+            }
+
+            string returns = Console.ReadLine();
+            Console.ResetColor();
+            return returns;
+        }
+        
         /* END Wildcards */
         /* START Black */
         /// <summary>
