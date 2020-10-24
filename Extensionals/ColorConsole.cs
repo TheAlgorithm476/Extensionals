@@ -1,6 +1,4 @@
-﻿// Added in: 1.0-pre1
-
-/*
+﻿/*
  * MIT License
  *
  * Copyright (c) 2020 TheAlgorithm476
@@ -28,6 +26,53 @@ using System;
 
 namespace Extensionals {
     public class ColorConsole {
+        /* START Wildcards */
+        /// <summary>
+        /// Writes the specified string value, followed by the current line terminator, to the standard output stream in the specified color.
+        /// </summary>
+        /// <param name="color"></param>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        public static string WriteLine(string color, string format) {
+            switch (color) {
+                case "black":
+                    Console.ForegroundColor = ConsoleColor.Black;
+                case "blue":
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                case "cyan":
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                case "darkblue":
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                case "darkgray":
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                case "darkgreen":
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                case "darkmagenta":
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                case "darkred":
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                case "darkyellow":
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
+                case "gray":
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                case "green":
+                    Console.ForegroundColor = ConsoleColor.Green;
+                case "magenta":
+                    Console.ForegroundColor = ConsoleColor.Magenta;
+                case "red":
+                    Console.ForegroundColor = ConsoleColor.Red;
+                case "white":
+                    Console.ForegroundColor = ConsoleColor.White;
+                case "yellow":
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+            }
+
+            Console.WriteLine(format);
+            Console.ResetColor();
+            return format;
+        }
+        /* END Wildcards */
         /* START Black */
         /// <summary>
         /// Writes the specified string value, followed by the current line terminator, to the standard output stream in a black color.
