@@ -8,6 +8,10 @@ Changelog:
 - Added Wildcards for ReadLine
     * In form of String: ColorConsole.ReadLine(string color)
         * Specify your prefered color in "color".
+- Added Wildcards for Write
+    * In form of String: ColorConsole.Write(string color, string format)
+        * Specify your prefered color in "color".
+        * Specify your Output in "format".
 
 ## 1.2
 ### Additions
