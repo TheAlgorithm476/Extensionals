@@ -75,6 +75,53 @@ namespace Extensionals {
         }
 
         /// <summary>
+        /// Writes the specified string value, to the standard output stream in the specified color.
+        /// </summary>
+        /// <param name="color"></param>
+        /// <param name="format"></param>
+        /// <returns></returns>
+        /// <exception cref="System.IO.IOException"></exception>
+        public static string Write(string color, string format) {
+            if (color == "black") {
+                Console.ForegroundColor = ConsoleColor.Black;
+            } else if (color == "blue") {
+                Console.ForegroundColor = ConsoleColor.Blue;
+            } else if (color == "cyan") {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+            } else if (color == "darkblue") {
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+            } else if (color == "darkgray") {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+            } else if (color == "darkgreen") {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+            } else if (color == "darkmagenta") {
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            } else if (color == "darkred") {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+            } else if (color == "darkyellow") {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+            } else if (color == "gray") {
+                Console.ForegroundColor = ConsoleColor.Gray;
+            } else if (color == "green") {
+                Console.ForegroundColor = ConsoleColor.Green;
+            } else if (color == "magenta") {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+            } else if (color == "red") {
+                Console.ForegroundColor = ConsoleColor.Red;
+            } else if (color == "white") {
+                Console.ForegroundColor = ConsoleColor.White;
+            } else if (color == "yellow") {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+            } else {
+                Console.ResetColor();
+            }
+
+            Console.Write(format);
+            Console.ResetColor();
+            return format;
+        }
+
+        /// <summary>
         /// Reads the next line of characters from the standard input stream in your specified color.
         /// </summary>
         /// <returns>The next line from the input stream, or null if no more lines are available.</returns>
