@@ -35,37 +35,38 @@ namespace Extensionals {
         /// <returns></returns>
         /// <exception cref="System.IO.IOException"></exception>
         public static string WriteLine(string color, string format) {
-            switch (color) {
-                case "black":
-                    Console.ForegroundColor = ConsoleColor.Black;
-                case "blue":
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                case "cyan":
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                case "darkblue":
-                    Console.ForegroundColor = ConsoleColor.DarkBlue;
-                case "darkgray":
-                    Console.ForegroundColor = ConsoleColor.DarkGray;
-                case "darkgreen":
-                    Console.ForegroundColor = ConsoleColor.DarkGreen;
-                case "darkmagenta":
-                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                case "darkred":
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                case "darkyellow":
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                case "gray":
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                case "green":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                case "magenta":
-                    Console.ForegroundColor = ConsoleColor.Magenta;
-                case "red":
-                    Console.ForegroundColor = ConsoleColor.Red;
-                case "white":
-                    Console.ForegroundColor = ConsoleColor.White;
-                case "yellow":
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+            if (color == "black") {
+                Console.ForegroundColor = ConsoleColor.Black;
+            } else if (color == "blue") {
+                Console.ForegroundColor = ConsoleColor.Blue;
+            } else if (color == "cyan") {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+            } else if (color == "darkblue") {
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+            } else if (color == "darkgray") {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+            } else if (color == "darkgreen") {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+            } else if (color == "darkmagenta") {
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            } else if (color == "darkred") {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+            } else if (color == "darkyellow") {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+            } else if (color == "gray") {
+                Console.ForegroundColor = ConsoleColor.Gray;
+            } else if (color == "green") {
+                Console.ForegroundColor = ConsoleColor.Green;
+            } else if (color == "magenta") {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+            } else if (color == "red") {
+                Console.ForegroundColor = ConsoleColor.Red;
+            } else if (color == "white") {
+                Console.ForegroundColor = ConsoleColor.White;
+            } else if (color == "yellow") {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+            } else {
+                Console.ResetColor();
             }
 
             Console.WriteLine(format);
@@ -81,37 +82,38 @@ namespace Extensionals {
         /// <exception cref="OutOfMemoryException"></exception>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
         public static string ReadLine(string color) {
-            switch (color) {
-                case "black":
-                    Console.ForegroundColor = ConsoleColor.Black;
-                case "blue":
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                case "cyan":
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                case "darkblue":
-                    Console.ForegroundColor = ConsoleColor.DarkBlue;
-                case "darkgray":
-                    Console.ForegroundColor = ConsoleColor.DarkGray;
-                case "darkgreen":
-                    Console.ForegroundColor = ConsoleColor.DarkGreen;
-                case "darkmagenta":
-                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                case "darkred":
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                case "darkyellow":
-                    Console.ForegroundColor = ConsoleColor.DarkYellow;
-                case "gray":
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                case "green":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                case "magenta":
-                    Console.ForegroundColor = ConsoleColor.Magenta;
-                case "red":
-                    Console.ForegroundColor = ConsoleColor.Red;
-                case "white":
-                    Console.ForegroundColor = ConsoleColor.White;
-                case "yellow":
-                    Console.ForegroundColor = ConsoleColor.Yellow;
+            if (color == "black") {
+                Console.ForegroundColor = ConsoleColor.Black;
+            } else if (color == "blue") {
+                Console.ForegroundColor = ConsoleColor.Blue;
+            } else if (color == "cyan") {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+            } else if (color == "darkblue") {
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+            } else if (color == "darkgray") {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+            } else if (color == "darkgreen") {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+            } else if (color == "darkmagenta") {
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            } else if (color == "darkred") {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+            } else if (color == "darkyellow") {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+            } else if (color == "gray") {
+                Console.ForegroundColor = ConsoleColor.Gray;
+            } else if (color == "green") {
+                Console.ForegroundColor = ConsoleColor.Green;
+            } else if (color == "magenta") {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+            } else if (color == "red") {
+                Console.ForegroundColor = ConsoleColor.Red;
+            } else if (color == "white") {
+                Console.ForegroundColor = ConsoleColor.White;
+            } else if (color == "yellow") {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+            } else {
+                Console.ResetColor();
             }
 
             string returns = Console.ReadLine();
